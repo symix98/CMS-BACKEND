@@ -1,0 +1,59 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520110958",
+  "clientRootFolder": "MaterialRequisition",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "change_log",
+  "fields": [
+    {
+      "fieldName": "entity",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "entityId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "eventId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "revNo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "oldValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "newValue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modifiedBy",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "modifyDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "MaterialRequisition",
+  "name": "ChangeLog",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

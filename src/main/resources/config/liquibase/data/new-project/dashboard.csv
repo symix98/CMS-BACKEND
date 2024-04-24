@@ -1,0 +1,8 @@
+dashboard_id,name,dashboard_layout_id
+Requisition Manager,Requisition Manager Dashboard,two_columns_layout
+Control Manager,Control Manager Dashboard,two_columns_layout
+Delivery Manager,Delivery Manager Dashboard,two_columns_layout
+Delivery Person,Delivery Person Dashboard,two_columns_layout
+Material Engineer,Material Engineer Dashboard,two_columns_layout
+Cost Engineer,Cost Engineer Dashboard,two_columns_layout
+Default,Default Dashboard,two_columns_layout

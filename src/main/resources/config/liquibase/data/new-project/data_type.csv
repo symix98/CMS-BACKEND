@@ -1,0 +1,6 @@
+id	name 	complex
+1	DateType	FALSE
+2	BooleanType	FALSE
+3	StringType	FALSE
+4	UserType	TRUE
+5	RoleType	TRUE

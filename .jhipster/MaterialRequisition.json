@@ -1,0 +1,87 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520110953",
+  "clientRootFolder": "MaterialRequisition",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "material_requisition",
+  "fields": [
+    {
+      "fieldName": "requisitionNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "requester",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requiredDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remarks",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "smrno",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "smrrevo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "costcode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "attachementURI",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "deleted",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "deleteDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "deletedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "MaterialRequisition",
+  "name": "MaterialRequisition",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "materialRequisitionItem",
+      "otherEntityRelationshipName": "materialRequisition",
+      "relationshipName": "materialRequisitionItem",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

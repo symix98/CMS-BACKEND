@@ -1,0 +1,6 @@
+id,sequence,form_type,step_name,action_description,roles,initial_status,success_status,enabled,sign_off_rule,multiple_action_users
+1,1,MaterialRequisition,Submit Material Requisition,Please Review the Material Requesition and Resubmit it,NULL,ReviewAndResubmit,InProcess,TRUE,Any,FALSE
+2,2,MaterialRequisition,Material Supervisor Approval,Please Review the Material Requisition and Approve it,NULL,InProcess,SupervisorApproved,TRUE,Any,FALSE
+3,3,MaterialRequisition,Engineer Assign Matcodes,Please Assign Matcodes to the requested items,Material Engineer,SupervisorApproved,InProcess,TRUE,Any,FALSE
+4,4,MaterialRequisition,Cost Control Engineer Assign Cost Codes,Please Assign Cost Codes to the requested items,Cost Engineer,InProcess,InProcess,TRUE,Any,FALSE
+5,5,MaterialRequisition,Control Manager Approval,Please Review the Material Requisition and Approve it,Control Manager,InProcess,Approved,TRUE,Any,FALSE

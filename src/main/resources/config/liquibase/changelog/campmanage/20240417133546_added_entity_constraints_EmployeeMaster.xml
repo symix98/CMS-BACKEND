@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity EmployeeMaster.
+    -->
+    <changeSet id="20240417133546-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="ref_trade_id"
+                                 baseTableName="employee_master"
+                                 constraintName="fk_employee_master__ref_trade_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ref_trade"/>
+
+        <addForeignKeyConstraint baseColumnNames="ref_nationality_id"
+                                 baseTableName="employee_master"
+                                 constraintName="fk_employee_master__ref_nationality_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ref_nationality"/>
+
+        <addForeignKeyConstraint baseColumnNames="ref_project_id"
+                                 baseTableName="employee_master"
+                                 constraintName="fk_employee_master__ref_project_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ref_project"/>
+
+        <addForeignKeyConstraint baseColumnNames="ref_employee_company_id"
+                                 baseTableName="employee_master"
+                                 constraintName="fk_employee_master__ref_employee_company_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ref_employee_company"/>
+
+        <addForeignKeyConstraint baseColumnNames="ref_meal_category_id"
+                                 baseTableName="employee_master"
+                                 constraintName="fk_employee_master__ref_meal_category_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ref_meal_category"/>
+
+        <addForeignKeyConstraint baseColumnNames="ref_inactive_reason_id"
+                                 baseTableName="employee_master"
+                                 constraintName="fk_employee_master__ref_inactive_reason_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ref_inactive_reason"/>
+    </changeSet>
+</databaseChangeLog>

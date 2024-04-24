@@ -1,0 +1,2 @@
+name,prefix,postfix,counter_start,counter_digits,current_counter_value
+requisition_request_id,MR-,,1,6,0

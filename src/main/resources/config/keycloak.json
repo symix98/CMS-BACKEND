@@ -1,0 +1,8 @@
+{
+  "realm": "Apps",
+  "auth-server-url": "https://auth.ccc.net/auth",
+  "resource": "timesheet",
+  "credentials": {
+    "secret": "0f3e8e32-0912-4e6d-ac3b-51b172860d15"
+  }
+}

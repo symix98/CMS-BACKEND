@@ -1,0 +1,15 @@
+id,widget_id,section,tab,dashboard_dashboard_id
+1,widget_my_requests,1,,Cost Engineer
+2,widget_inbox,2,,Cost Engineer
+3,widget_my_requests,1,,Requisition Manager
+4,widget_inbox,2,,Requisition Manager
+5,widget_my_requests,1,,Control Manager
+6,widget_inbox,2,,Control Manager
+7,widget_my_requests,1,,Delivery Manager
+8,widget_inbox,2,,Delivery Manager
+9,widget_my_requests,1,,Delivery Person
+10,widget_inbox,2,,Delivery Person
+11,widget_my_requests,1,,Material Engineer
+12,widget_inbox,2,,Material Engineer
+13,widget_my_requests,1,,Default
+14,widget_inbox,2,,Default

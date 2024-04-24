@@ -1,0 +1,10 @@
+id,reference_key,value,description,type
+1,location,AREA 1,AREA 1,String
+2,location,AREA 2,AREA 2,String
+3,unit,cm,cm,String
+4,unit,piece,piece,String
+5,unit,inch,inch,String
+6,unit,m,m,String
+7,unit,m3,m3,String
+8,unit,kg,kg,String
+9,unit,ton,ton,String

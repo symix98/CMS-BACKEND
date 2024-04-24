@@ -1,0 +1,3 @@
+id,name,description,value_type,mandatory,is_multiple
+1,SUPERVISOR_APPROVAL,Requires Supervisor approval,BooleanType,FALSE,FALSE
+2,SUPERVISOR,Supervisor,UserType,FALSE,FALSE

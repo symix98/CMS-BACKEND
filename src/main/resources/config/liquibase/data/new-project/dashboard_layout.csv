@@ -1,0 +1,3 @@
+id,dashboard_layout_id,name,columns,overview
+1,two_columns_overview_layout,Two Columns Overview Dashboard,2,TRUE
+2,two_columns_layout,Two Columns Dashboard,2,FALSE

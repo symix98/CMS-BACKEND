@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520110956",
+  "clientRootFolder": "MaterialRequisition",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "comment",
+  "fields": [
+    {
+      "fieldName": "createDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "mediaURI",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "entity",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "entityId",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "MaterialRequisition",
+  "name": "Comment",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

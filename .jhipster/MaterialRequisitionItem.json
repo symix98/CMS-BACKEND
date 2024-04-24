@@ -1,0 +1,125 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520110954",
+  "clientRootFolder": "MaterialRequisition",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "material_requisition_item",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "requestedQty",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "requestedUnit",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mediaURI",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestedmatsource",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestedmatcode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestedmatsubcode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestedmatdescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestedmatunit",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "supervisorDecision",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "newmatcode",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "matsource",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matcode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matsubcode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matdescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matunit",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sdivno",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sivQty",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "deliveryStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "deliveredQty",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "deleted",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "deleteDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "deletedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "MaterialRequisition",
+  "name": "MaterialRequisitionItem",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "itemDelivery",
+      "otherEntityRelationshipName": "materialRequisitionItem",
+      "relationshipName": "itemDelivery",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "materialRequisition",
+      "otherEntityRelationshipName": "materialRequisitionItem",
+      "relationshipName": "materialRequisition",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

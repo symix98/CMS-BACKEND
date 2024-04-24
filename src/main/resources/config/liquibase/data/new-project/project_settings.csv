@@ -1,0 +1,3 @@
+id,property,description,value,value_type,category,is_multiple
+1,TALISMAN_SERVER,Talisman Server Host,,String,Talisman,FALSE
+2,TALISMAN_SERVER_Secret,TALISMAN SERVER Secret,,String,Talisman,FALSE

@@ -1,0 +1,14 @@
+role,object,permission
+Administrator,*,manage
+Cost Engineer,settings,read
+Cost Engineer,reports,create
+Requisition Manager,settings,create
+Requisition Manager,reports,read
+Control Manager,settings,manage
+Control Manager,reports,manage
+Delivery Manager,settings,read
+Delivery Manager,reports,read
+Delivery Person,settings,read
+Delivery Person,reports,read
+Material Engineer,settings,create
+Material Engineer,reports,create

@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520110955",
+  "clientRootFolder": "MaterialRequisition",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "item_delivery",
+  "fields": [
+    {
+      "fieldName": "deliveredQty",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "deliveryDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "deliveredBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "approvedBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "MaterialRequisition",
+  "name": "ItemDelivery",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "materialRequisitionItem",
+      "otherEntityRelationshipName": "itemDelivery",
+      "relationshipName": "materialRequisitionItem",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
